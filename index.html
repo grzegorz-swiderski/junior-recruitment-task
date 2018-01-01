@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="frontend/style.css" type="text/css" />
+    <title>ToDoList</title>
+  </head>
+  <body>
+    <div class="todo-container">
+      <div class="container-fluid">
+        <div class="row gray">
+          <div class="empty-box"></div>
+          <div class="box">
+            <h2>ToDo List</h2>
+          </div>
+        </div>
+      </div>
+      <div class="todo-list container-fluid" id="todoList"></div>
+      <form class="todo-form" id="todoForm">
+        <div class="container-fluid">
+          <div class="row">
+            <div id="div-btn">
+              <button type="submit" class="button todo-form-button">+</button>
+            </div>
+            <div class="box">
+              <input type="text" id="todoMessage"/>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="frontend/script.js"></script>
+  </body>
+</html>
